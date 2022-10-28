@@ -1,16 +1,16 @@
 Algoritmo "Inte10A20"
 //Ler 10 valores e escrever quantos desses valores
-// lidos est„o no intervalo [10,20]
+// lidos est√£o no intervalo [10,20]
 // (incluindo os valores 10 e 20 no intervalo)
-//e quantos deles est„o fora deste intervalo.
-// Usando o laÁo de repetiÁ„o REPITA
+//e quantos deles est√£o fora deste intervalo.
+// Usando o la√ßo de repeti√ß√£o REPITA
 var
    cont,N,V,V2 :inteiro
 Inicio
    cont <- 0
-   enquanto cont < 10 faÁa
+   enquanto cont < 10 fa√ßa
       cont <- cont + 1
-      Escreva ("Digite",cont,"∫N˙mero: ")
+      Escreva ("Digite",cont,"¬∫N√∫mero: ")
       leia(N)
 
       se (n >= 10) e (n <=20) entao
@@ -19,7 +19,7 @@ Inicio
          v2 <- v2 + 1
          fimse
       fimenquanto
-      escrevaL ("A quantidade no intervalo de 10/20 È: ",v)
-      escrevaL ("A quantidade fora do intervalor de 10/20 È: ",v2)
+      escrevaL ("A quantidade no intervalo de 10/20 √©: ",v)
+      escrevaL ("A quantidade fora do intervalor de 10/20 √©: ",v2)
 
 fimalgoritmo
